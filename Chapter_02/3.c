@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
-    int days,years=21;
+    int days, years = 21;
 
-    days=years*365;
-    printf("我的年龄是%d岁，%d天\n",years,days);
+    days = years * 365;
+    printf("我的年龄是shishi%d岁，%d天\n", years, days);
+    system("pause");
     return 0;
 }
