@@ -1,11 +1,10 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
+    printf("Please input the inches.\n");
     double inch, cm;
-    printf("Please input the inches: ");
-    scanf("%lf", &inch);
+    scanf("%1f", &inch);
     cm = inch * 2.54;
-    // test di 三次提交
     printf("%g cm\n", cm);
     getchar();
     getchar();
